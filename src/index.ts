@@ -36,8 +36,6 @@ class Block {
     }
 }
 
-
-
 const genesisBlock: Block = new Block(0, "202020202020202", "", "Hello", 1234567);
 
 let blockchain: Block[] = [genesisBlock];
